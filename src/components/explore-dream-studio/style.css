@@ -1,0 +1,71 @@
+.main-heading h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 36px;
+  justify-content: center;
+  margin-bottom: 111px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #10b981;
+}
+.main-container {
+  max-width: 55%;
+}
+.main-container .main-row {
+  justify-content: space-between;
+}
+
+.main-container .Software h3 {
+  font-size: 17px;
+  text-align: center;
+}
+
+.main-container .Design h3 {
+  font-size: 17px;
+  text-align: center;
+}
+
+.main-container .Finance h3 {
+  font-size: 17px;
+  text-align: center;
+}
+.main-container .Photography h3 {
+  font-size: 17px;
+  text-align: center;
+}
+.main-container .Management h3 {
+  font-size: 17px;
+  text-align: center;
+}
+
+.main-container .main-row .software-bt {
+  background-color: transparent;
+  color: black;
+  border: 0px solid white;
+}
+.main-container .main-row .design-bt {
+  background-color: transparent;
+  color: black;
+  border: 0px solid white;
+}
+.main-container .main-row .finance-bt {
+  background-color: transparent;
+  color: black;
+  border: 0px solid white;
+}
+
+.main-container .main-row .photography-bt {
+  background-color: transparent;
+  color: black;
+  border: 0px solid white;
+}
+.main-container .main-row .management-bt {
+  background-color: transparent;
+  color: black;
+  border: 0px solid white;
+}

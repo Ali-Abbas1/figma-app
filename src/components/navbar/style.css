@@ -1,0 +1,48 @@
+.main-div {
+  padding: 9px 0px 6px 9px;
+  background-color: #1f2937;
+}
+
+.main-nav {
+  color: #fff;
+}
+.main-nav .logo p {
+  font-size: 12px;
+}
+.main-div .main-nav .navbar-center-buttons .nav-buttons .product {
+  color: #fff;
+  background-color: transparent;
+  border: 0px;
+}
+
+.main-div .main-nav .navbar-center-buttons .nav-buttons .performance {
+  color: #fff;
+  background-color: transparent;
+  border: 0px;
+}
+.main-div .main-nav .navbar-center-buttons .nav-buttons .dashboard {
+  color: #fff;
+  background-color: transparent;
+  border: 0px;
+}
+.main-nav .navbar-center.buttons {
+  justify-content: center;
+  display: flex;
+}
+
+.main-nav .buttons .signup {
+  border: 0px solid white;
+  border-radius: 8px;
+  background-color: #10b981;
+  color: white;
+}
+.main-nav .buttons .login {
+  border: 0px solid white;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+.main-nav .buttons {
+  width: 16%;
+  justify-content: space-evenly;
+}
