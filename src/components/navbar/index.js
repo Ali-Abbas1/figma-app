@@ -10,7 +10,7 @@ const navbar = () => {
       <Navbar expand="lg" className="main-div">
         <Container fluid className="main-nav">
           <div className="logo">
-            <img src={logo} />
+            <img src={logo} alt="logo" />
             <p>
               <b>DREAM</b> STUDIO
             </p>
@@ -27,11 +27,11 @@ const navbar = () => {
                 <div className="nav-buttons d-flex mx-auto">
                   <button className="product">Product</button>
                   <div className="img1">
-                    <img src={dot} />
+                    <img src={dot} alt="dot" />
                   </div>
                   <button className="performance">Performance</button>
                   <div className="img2">
-                    <img src={dot} />
+                    <img src={dot} alt="dot2" />
                   </div>
                   <button className="dashboard">Dashboard</button>
                 </div>
