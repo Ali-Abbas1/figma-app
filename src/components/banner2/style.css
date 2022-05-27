@@ -1,0 +1,33 @@
+.main-banner2 {
+    margin-top: 160px;
+}
+.main-banner2 .right-banner {
+    width: 18%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+  }
+  
+  .main-banner2 .right-banner h2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 40px;
+  }
+  
+  .main-banner2 .right-banner p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #374151;
+  }
+  
+  .main-banner2 .right-banner .upper {
+    justify-content: space-around;
+  }
+  .main-banner2 .right-banner .lower {
+    justify-content: space-around;
+  }
