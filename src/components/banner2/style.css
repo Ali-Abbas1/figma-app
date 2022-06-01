@@ -1,8 +1,9 @@
 .main-banner2 {
     margin-top: 160px;
 }
+
 .main-banner2 .right-banner {
-    width: 18%;
+    width: 24%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 180px;
@@ -26,8 +27,41 @@
   }
   
   .main-banner2 .right-banner .upper {
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
   .main-banner2 .right-banner .lower {
-    justify-content: space-around;
+    justify-content: space-evenly;
+  }
+
+  @media (max-width: 990px) {
+    .main-banner2 .right-banner h2 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 20px;
+      line-height: 17px;
+    }
+
+    .main-banner2 .right-banner p {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 17px;
+      color: #374151;
+    }
+
+    .main-banner2 .right-banner .upper .total-jobs h1 {
+      font-size: 16px;
+
+    }
+    .main-banner2 .right-banner .upper .total-employees h1 {
+      font-size: 16px;
+    }
+    .main-banner2 .right-banner .lower .seekers h1 {
+      font-size: 16px;
+    }
+    .main-banner2 .right-banner .lower .experience h1 {
+      font-size: 16px;
+    }
   }

@@ -12,8 +12,8 @@ const banner2 = () => {
     <>
     <div>
       <Container fluid className="main-banner2 d-flex ">
-      <div className="left-banner d-flex">
-      <Card className="banner-image2">
+      <div className="left-banner d-flex" style={{width:"40%"}}>
+      <Card className="banner-image2" >
               <Card.Img variant="top" src={image2} />
             </Card>
         </div>

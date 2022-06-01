@@ -1,0 +1,241 @@
+.searchbar-main {
+    display: flex;
+    height: 112px;
+    left: 160px;
+    top: 700px;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 9px;
+    border-radius: 8px;
+
+    position: absolute;
+    /* top: 0; */
+    background: white;
+    margin: 153px 0px 0px 196px;
+    
+
+}
+.searchbar-main .location {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    line-height: 28px;
+    width: 40%;
+}
+
+.searchbar-main .location h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #374151;
+    margin-bottom: 0px;
+}
+
+.searchbar-main .location p {
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;    
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #6B7280;
+    margin-bottom: 0px;
+}
+
+.searchbar-main .navigators {
+    display: flex;
+    width: 35%;
+}
+
+.searchbar-main .category {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    align-items: center
+}
+
+.searchbar-main .skills {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.searchbar-main .search-button {
+    display: flex;
+    padding: 49px,14px,49px,14px;
+    width: 30%;
+    width: 161px;
+    height: 56px;
+    left: 970px;
+    top: 731px;
+    margin-right: 42px;
+}
+
+.searchbar-main .search-button  .search {
+    background-color: #10B981;
+    border: 0px solid #fff;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding-top: 14px;
+    padding-left: 49px;
+    padding-right: 49px;
+    padding-bottom: 14px;
+}
+
+@media (max-width: 1200px) {
+    .searchbar-main {
+        display: flex;
+        height: 98px;
+        left: 160px;
+        top: 700px;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        width: 77%;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0px 0px 9px;
+        border-radius: 8px;
+        position: absolute;
+        /* top: 0; */
+        background: white;
+        margin: 8px 0px 0px 20px;
+ }
+ .searchbar-main .location h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #374151;
+}
+.searchbar-main .location p {
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;    
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #6B7280;
+}
+.searchbar-main .navigators {
+    display: flex;
+    width: 25%;
+
+}
+}
+
+@media (max-width: 990px) {
+    .searchbar-main {
+    display: flex;
+    height: 98px;
+    left: 160px;
+    top: 700px;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    width: 73%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 9px;
+    border-radius: 8px;
+    position: absolute;
+    /* top: 0; */
+    background: white;
+    margin: -113px 0px 0px -7px;
+}
+
+.searchbar-main .location h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #374151;
+}
+.searchbar-main .location p {
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 8px;    
+    line-height: 11px;
+    display: flex;
+    align-items: center;
+    color: #6B7280;
+}
+.searchbar-main .category {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center
+}
+
+.searchbar-main .skills {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+}
+.searchbar-main .search-button {
+    display: flex;
+    width: 30%;
+    width: 90px;
+    height: 41px;
+    margin-right: 56px;
+}
+.searchbar-main .search-button  .search {
+    background-color: #10B981;
+    border: 0px solid #fff;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding-top: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 8px;
+}
+
+}

@@ -42,3 +42,43 @@
   justify-content: end;
   max-width: 47%;
 }
+.main .banner-image .banner-image-card {
+  justify-content: center;
+}
+
+@media (max-width: 990px)  {
+  .main .left-banner h1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+  }
+
+  .main .left-banner p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    /* or 156% */
+    display: flex;
+    align-items: center;
+  }
+ } 
+
+
+ @media (max-width: 400px) {
+  .main .left-banner h1 { 
+    font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+ }
+}
+ 

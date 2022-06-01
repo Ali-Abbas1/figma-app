@@ -1,13 +1,16 @@
 .main-div {
-  padding: 9px 0px 6px 9px;
+  /* padding: 9px 0px 6px 9px; */
   background-color: #1f2937;
+  max-width: 100%;
 }
 
 .main-nav {
   color: #fff;
+  padding: 7px 0px 1px 21px;
 }
 .main-nav .logo p {
-  font-size: 12px;
+  font-size: 13px;
+    line-height: 8px;
 }
 .main-div .main-nav .navbar-center-buttons .nav-buttons .product {
   color: #fff;
@@ -35,6 +38,8 @@
   border-radius: 8px;
   background-color: #10b981;
   color: white;
+  width: 129px;
+    height: 48px;
 }
 .main-nav .buttons .login {
   border: 0px solid white;
@@ -46,3 +51,41 @@
   width: 16%;
   justify-content: space-evenly;
 }
+.main-div .main-nav .navbar-center-buttons .navbar-toggler .nav-collapse .nav-buttons .product {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+}
+.main-div .main-nav .navbar-center-buttons .navbar-toggler .nav-collapse .nav-buttons .performance {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+}
+.main-div .main-nav .navbar-center-buttons .navbar-toggler .nav-collapse .nav-buttons .dashboard {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+}
+
+@media (max-width: 990px) {
+.main-div .main-nav .navbar-center-buttons .toggler {
+  position: absolute;
+  top: 40px;
+  right: 160px;
+}
+}
+@media  (max-width: 320px){
+ 
+  .main-div .main-nav .navbar-center-buttons .toggler{ 
+    position: absolute;
+    top: 40px;
+    right: 100px;
+  }
+}
+ 

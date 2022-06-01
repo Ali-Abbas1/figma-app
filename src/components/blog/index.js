@@ -1,12 +1,12 @@
 import './style.css';
 import { Container, Card, Row, Col } from "react-bootstrap";
-import social1 from '../../assets/images/social1.png';
-import social2 from '../../assets/images/social2.png';
-import social3 from '../../assets/images/social3.png';
-import social4 from '../../assets/images/social4.png';
-import social5 from '../../assets/images/social5.png';
-import social6 from '../../assets/images/social6.png';
-import social7 from '../../assets/images/social7.png';
+import behance from '../../assets/images/behance222.svg';
+import discord from '../../assets/images/discord22.svg';
+import google from '../../assets/images/google22.svg';
+import facebook from '../../assets/images/facebook22.svg';
+import twitter from '../../assets/images/twitter22.svg';
+import linkedin from '../../assets/images/linkedin22.svg';
+import instagram from '../../assets/images/instagram22.svg';
 import React from 'react';
 
 const blog = () => {
@@ -19,68 +19,68 @@ const blog = () => {
       </div>
       <div className="social-buttons">
       <Row className="upper-row">
-          <Col md={1}>
-            <Card className="social-bt1" style={{ border: "0px solid white" }}>
-              <Card.Img src={social1} />
+          <Col md={1} className="first-btn">
+            <Card className="social-bt1" >
+              <Card.Img src={behance} className="image-1"  />
             </Card>
           </Col>
-          <Col md={1}>
-            <Card className="social-bt1" style={{ border: "0px solid white" }}>
-              <Card.Img src={social2}  />
+          <Col md={1} className="second-btn">
+            <Card className="social-bt2" >
+              <Card.Img src={discord} className="image-2" />
             </Card>
           </Col>
-          <Col md={1}>
-            <Card className="social-bt3" style={{ border: "0px solid white" }}>
-              <Card.Img src={social3}  />
+          <Col md={1} className="third-btn">
+            <Card className="social-bt3" >
+              <Card.Img src={google} className="image-3" />
             </Card>
           </Col>
-          <Col md={1}>
-            <Card className="Social-bt4" style={{ border: "0px solid white" }}>
-              <Card.Img src={social4} />
+          <Col md={1} className="fourth-btn">
+            <Card className="social-bt4" >
+              <Card.Img src={facebook}  className="image-4"/>
             </Card>
           </Col>
-          <Col md={1}>
-            <Card className="social-bt5" style={{ border: "0px solid white" }}>
-              <Card.Img src={social5} />
+          <Col md={1} className="fifth-btn">
+            <Card className="social-bt5" >
+              <Card.Img src={twitter}  className="image-5"/>
             </Card>
           </Col>
-          <Col md={1}>
-            <Card className="social-bt6" style={{ border: "0px solid white" }}>
-              <Card.Img src={social6} />
+          <Col md={1} className="sixth-btn">
+            <Card className="social-bt6" >
+              <Card.Img src={linkedin}  className="image-6"/>
             </Card>
           </Col>
-          <Col md={1}>
-            <Card className="social-bt7" style={{ border: "0px solid white" }}>
-              <Card.Img src={social7} />
+          <Col md={1} className="seventh-btn">
+            <Card className="social-bt7" >
+              <Card.Img src={instagram} className="image-7" />
             </Card>
           </Col>
           </Row>
           {/* </div>
           <div className="lower-social-buttons"> */}
           <Row className='lower-row'>
-          <Col md={1}>
-            <Card className="social-bt8" style={{ border: "0px solid white" }}>
-              <Card.Img src={social1} />
+          <Col md={1} className="eigth-btn">
+            <Card className="social-bt8" >
+              <Card.Img src={behance} className="image-8" />
             </Card>
             </Col>
-            <Col md={1}>
-            <Card className="social-bt9" style={{ border: "0px solid white" }}>
-              <Card.Img src={social2} />
+            <Col md={1} className="ninth-btn">
+            <Card className="social-bt9" >
+              <Card.Img src={discord} className="image-9" />
             </Card>
           </Col>
-          <Col md={1}>
-            <Card className="social-bt10" style={{ border: "0px solid white" }}>
-              <Card.Img src={social3} />
+          <Col md={1} className="tenth-btn">
+            <Card className="social-bt10" >
+              <Card.Img src={google}  className="image-10"/>
             </Card>
           </Col>
-          <Col md={1}>
-            <Card className="social-bt11" style={{ border: "0px solid white" }}>
-              <Card.Img src={social4} />
+          <Col md={1} className="eleventh-btn">
+            <Card className="social-bt11" >
+              <Card.Img src={facebook} className="image-11" />
             </Card>
           </Col>         
-          <Col md={1}>
-            <Card className="social-bt11" style={{ border: "0px solid white" }}>
-              <Card.Img src={social5} />
+          <Col md={1} className="twelveth-btn">
+            <Card className="social-bt12" >
+              <Card.Img src={twitter} className="image-12" />
             </Card>
           </Col>
           

@@ -29,8 +29,8 @@ const banner = () => {
         </div>
         <div className="banner-image d-flex">
           <>
-            <Card>
-              <Card.Img variant="top" src={image} />
+            <Card className="banner-image-card">
+              <Card.Img variant="top" src={image} styl={{border:"0px"}}/>
             </Card>
           </>
         </div>

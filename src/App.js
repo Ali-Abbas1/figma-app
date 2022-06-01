@@ -6,6 +6,7 @@ import Banner2 from './components/banner2/index.js';
 import Ourteam from './components/ourteam/index.js';
 import Blog from './components/blog/index.js';
 import Footer from './components/footer/index.js';
+import Searchbar from "./components/searchbar";
 import React from "react";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <>
       <Navbar />
       <Banner />
+      <Searchbar />
       <Dreamstudio />
       <Banner2 />
       <Ourteam />
